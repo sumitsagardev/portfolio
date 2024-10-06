@@ -7,21 +7,21 @@ function Blog() {
       title: "5 Common Mistakes to Avoid When Developing APIs",
       description:
         "Learn to avoid common pitfalls in API development and improve the reliability and usability of your applications.",
-      image: "src/assets/images/api-development.jpg",
+      image: "../../public/api-development.jpg",
       link: "#",
     },
     {
       title: "How to Use ReactJS to Build a Modern Web Application",
       description:
         "Get a step-by-step guide on building a modern web application using ReactJS, a popular JavaScript library nowadays.",
-      image: "src/assets/images/web-development.jpg",
+      image: "../../public/web-development.jpg",
       link: "#",
     },
     {
       title: "Hosting your Web Application with AWS & S3 Bucket",
       description:
         "Learn how hosting your web application on AWS with S3, enables seamless scalability and maintaining optimal performance.",
-      image: "src/assets/images/aws.jpg",
+      image: "../../public/aws.jpg",
       link: "#",
     },
   ];

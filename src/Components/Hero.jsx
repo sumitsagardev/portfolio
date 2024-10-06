@@ -14,7 +14,7 @@ function Hero() {
         {/* Image Section */}
         <div className="md:w-1/2 flex justify-between order-1 md:order-2 mt-8 md:mt-0">
           <img
-            src="src/assets/Images/logo.png"
+            src="../../public/logo.png"
             alt="Profile Logo"
             className="sm:w-auto w-72 sm:mb-0 mb-8 flex justify-between object-cover lg:mx-20 rounded-full border border-secondary animation-borderMove shadow-lg transition-transform duration-300 ease-in-out"
             style={{
@@ -42,7 +42,7 @@ function Hero() {
           {/* Buttons Section */}
           <div className="flex my-6 space-x-6">
             <a
-              href="src/assets/images/Shekhar_MERN_Laravel_CodeIgniter_Developer_Resume.pdf"
+              href="../../public/Shekhar_MERN_Laravel_CodeIgniter_Developer_Resume.pdf"
               target="_blank"
               className="inline-block px-6 py-3 text-sm font-medium text-white bg-secondary rounded-full hover:bg-secondary-dark shadow-lg transition duration-300 ease-in-out transform hover:scale-110"
             >

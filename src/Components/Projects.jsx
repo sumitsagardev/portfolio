@@ -3,7 +3,7 @@ import React from "react";
 function Projects() {
   const projects = [
     {
-      image: "src/assets/images/tawid-banner.jpg", // Replace with your actual image paths
+      image: "../../public/tawid-banner.jpg", // Replace with your actual image paths
       name: "Tawid",
       type: "Mobile Application",
       description:
@@ -11,7 +11,7 @@ function Projects() {
       link: "https://example.com/project1",
     },
     {
-      image: "src/assets/images/uncruise-banner.jpg",
+      image: "../../public/uncruise-banner.jpg",
       name: "Uncruise",
       type: "Mobile Application",
       description:
@@ -19,7 +19,7 @@ function Projects() {
       link: "https://example.com/project2",
     },
     {
-      image: "src/assets/images/metaval-banner.jpg",
+      image: "../../public/metaval-banner.jpg",
       name: "Metaval",
       type: "E-commerce Website",
       description:
@@ -27,7 +27,7 @@ function Projects() {
       link: "https://example.com/project3",
     },
     {
-      image: "src/assets/images/transport-coyoacan.jpg",
+      image: "../../public/transport-coyoacan.jpg",
       name: "Coyoacan Transport",
       type: "Mobile Application",
       description:
@@ -35,7 +35,7 @@ function Projects() {
       link: "https://example.com/project4",
     },
     {
-      image: "src/assets/images/hoofboot-banner.jpg",
+      image: "../../public/hoofboot-banner.jpg",
       name: "Hoof-Boot Academy",
       type: "Mobile Application",
       description:
@@ -43,7 +43,7 @@ function Projects() {
       link: "https://example.com/project5",
     },
     {
-      image: "src/assets/images/coyoacan-driver.jpg",
+      image: "../../public/coyoacan-driver.jpg",
       name: "Coyoacan Driver",
       type: "Mobile Application",
       description:
