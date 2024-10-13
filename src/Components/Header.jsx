@@ -39,7 +39,7 @@ function Header() {
         <div className="container mx-auto max-w-[1200px] px-4 md:px-20 flex justify-between items-center h-16">
           <div className="flex items-center">
             <img
-              src="/public/logo.png"
+              src="/logo.png"
               alt="Shekhar Panday"
               className="h-full w-16 hover:overflow-hidden"
             />

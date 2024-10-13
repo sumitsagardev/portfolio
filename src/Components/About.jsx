@@ -8,7 +8,7 @@ function About() {
         <div className="w-full md:w-1/3 flex justify-center">
           <div className="relative overflow-hidden rounded-lg shadow-md h-80 w-full">
             <img
-              src="/public/s.jpg"
+              src="/s.jpg"
               alt="profile"
               className="h-full w-full object-cover object-top transition-transform duration-300 transform hover:scale-105"
             />

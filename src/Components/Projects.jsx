@@ -3,7 +3,7 @@ import React from "react";
 function Projects() {
   const projects = [
     {
-      image: "../../public/tawid-banner.jpg", // Replace with your actual image paths
+      image: "/tawid-banner.jpg", // Replace with your actual image paths
       name: "Tawid",
       type: "Mobile Application",
       description:
@@ -11,7 +11,7 @@ function Projects() {
       link: "https://example.com/project1",
     },
     {
-      image: "../../public/uncruise-banner.jpg",
+      image: "/uncruise-banner.jpg",
       name: "Uncruise",
       type: "Mobile Application",
       description:
@@ -19,7 +19,7 @@ function Projects() {
       link: "https://example.com/project2",
     },
     {
-      image: "../../public/metaval-banner.jpg",
+      image: "/metaval-banner.jpg",
       name: "Metaval",
       type: "E-commerce Website",
       description:
@@ -27,7 +27,7 @@ function Projects() {
       link: "https://example.com/project3",
     },
     {
-      image: "../../public/transport-coyoacan.jpg",
+      image: "/transport-coyoacan.jpg",
       name: "Coyoacan Transport",
       type: "Mobile Application",
       description:
@@ -35,7 +35,7 @@ function Projects() {
       link: "https://example.com/project4",
     },
     {
-      image: "../../public/hoofboot-banner.jpg",
+      image: "/hoofboot-banner.jpg",
       name: "Hoof-Boot Academy",
       type: "Mobile Application",
       description:
@@ -43,7 +43,7 @@ function Projects() {
       link: "https://example.com/project5",
     },
     {
-      image: "../../public/coyoacan-driver.jpg",
+      image: "/coyoacan-driver.jpg",
       name: "Coyoacan Driver",
       type: "Mobile Application",
       description:
