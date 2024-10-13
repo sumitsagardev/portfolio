@@ -10,7 +10,7 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 function Hero() {
   return (
     <>
-      <div className="container mx-auto min-h-screen max-w-[1200px] flex flex-col md:flex-row justify-between items-center py-28 px-8 md:px-32">
+      <div className="container mx-auto min-h-screen max-w-[1200px] flex flex-col md:flex-row justify-between items-center py-24  md:px-24">
         {/* Image Section */}
         <div className="md:w-1/2 flex justify-between order-1 md:order-2 mt-12 md:mt-0">
           <img
@@ -40,17 +40,17 @@ function Hero() {
           </p>
 
           {/* Buttons Section */}
-          <div className="flex my-8 space-x-6">
+          <div className="flex my-8 space-x-6 sm:flex sm:items-center sm:justify-start justify-center">
             <a
-              href="../../public/Shekhar_MERN_Laravel_CodeIgniter_Developer_Resume.pdf"
+              href="/Shekhar_MERN_Laravel_CodeIgniter_Developer_Resume.pdf"
               target="_blank"
-              className="inline-block px-10 py-5 text-sm font-medium text-white bg-secondary rounded-full hover:bg-secondary-dark shadow-lg transition duration-300 ease-in-out transform hover:scale-110"
+              className="inline-block px-6 py-3 text-sm font-medium text-white bg-secondary rounded-full hover:bg-secondary-dark shadow-lg transition duration-300 ease-in-out transform hover:scale-110"
             >
               Download CV
             </a>
             <a
               href="#connect"
-              className="inline-block px-10 py-5 text-sm font-medium text-white bg-blue-600 rounded-full hover:bg-blue-700 hover:shadow-lg transition duration-300 ease-in-out transform hover:scale-110"
+              className="inline-block px-6 py-3 text-sm font-medium text-white bg-blue-600 rounded-full hover:bg-blue-700 hover:shadow-lg transition duration-300 ease-in-out transform hover:scale-110"
             >
               Get Connect
             </a>

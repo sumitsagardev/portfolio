@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <section className="container max-w-[1200px] mx-auto py-10 px-4 md:px-20">
+    <section className="container max-w-[1200px] mx-auto py-10 px-6 md:px-20">
       <div className="flex flex-col md:flex-row items-start justify-between space-y-6 md:space-y-0 md:space-x-12">
         {/* Image Section */}
         <div className="w-full md:w-1/3 flex justify-center">
@@ -20,7 +20,7 @@ function About() {
           <h1 className="text-3xl text-secondary md:text-4xl font-bold mb-4">
             About Me
           </h1>
-          <p className="text-primary text-md text-justify">
+          <p className="text-primary text-md text-justify p-1 sm:p-2 md:p-4">
             As a seasoned Backend Developer with over 2 years of experience, I
             specialize in Laravel and CodeIgniter frameworks, leveraging my
             expertise to craft robust and scalable web applications that drive
