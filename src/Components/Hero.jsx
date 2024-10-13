@@ -10,13 +10,13 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 function Hero() {
   return (
     <>
-      <div className="container mx-auto max-w-[1200px] flex flex-col md:flex-row justify-between items-center py-16 px-4 md:px-20">
+      <div className="container mx-auto min-h-screen max-w-[1200px] flex flex-col md:flex-row justify-between items-center py-28 px-8 md:px-32">
         {/* Image Section */}
-        <div className="md:w-1/2 flex justify-between order-1 md:order-2 mt-8 md:mt-0">
+        <div className="md:w-1/2 flex justify-between order-1 md:order-2 mt-12 md:mt-0">
           <img
             src="/logo.png"
             alt="Profile Logo"
-            className="sm:w-auto w-72 sm:mb-0 mb-8 flex justify-between object-cover lg:mx-20 rounded-full border border-secondary animation-borderMove shadow-lg transition-transform duration-300 ease-in-out"
+            className="sm:w-auto w-80 sm:mb-0 mb-10 flex justify-between object-cover lg:mx-24 rounded-full border border-secondary animation-borderMove shadow-lg transition-transform duration-300 ease-in-out"
             style={{
               animation: "borderMove 2s infinite ease-in-out",
             }} /* Apply the animation */
@@ -25,14 +25,14 @@ function Hero() {
 
         {/* Text Section */}
         <div className="text-center md:text-left md:w-1/2 order-2 md:order-1">
-          <h2 className="text-xl text-secondary my-4 md:text-xl font-semibold hero-title">
+          <h2 className="text-xl text-secondary my-6 md:text-xl font-semibold hero-title">
             Welcome to my Profile
           </h2>
           <h1 className="light:text-black text-xl md:text-5xl font-bold text-white">
             I am a{" "}
             <span className="text-secondary">Full Stack Web Developer</span>
           </h1>
-          <p className="text-white my-4 leading-relaxed">
+          <p className="text-white my-6 leading-relaxed">
             A seasoned web developer, dedicated to crafting immersive online
             experiences. With a passion for innovation and a relentless pursuit
             of excellence, I bring creativity, precision, and a unique
@@ -40,17 +40,17 @@ function Hero() {
           </p>
 
           {/* Buttons Section */}
-          <div className="flex my-6 space-x-6">
+          <div className="flex my-8 space-x-6">
             <a
               href="../../public/Shekhar_MERN_Laravel_CodeIgniter_Developer_Resume.pdf"
               target="_blank"
-              className="inline-block px-6 py-3 text-sm font-medium text-white bg-secondary rounded-full hover:bg-secondary-dark shadow-lg transition duration-300 ease-in-out transform hover:scale-110"
+              className="inline-block px-10 py-5 text-sm font-medium text-white bg-secondary rounded-full hover:bg-secondary-dark shadow-lg transition duration-300 ease-in-out transform hover:scale-110"
             >
               Download CV
             </a>
             <a
               href="#connect"
-              className="inline-block px-6 py-3 text-sm font-medium text-white bg-blue-600 rounded-full hover:bg-blue-700 hover:shadow-lg transition duration-300 ease-in-out transform hover:scale-110"
+              className="inline-block px-10 py-5 text-sm font-medium text-white bg-blue-600 rounded-full hover:bg-blue-700 hover:shadow-lg transition duration-300 ease-in-out transform hover:scale-110"
             >
               Get Connect
             </a>
