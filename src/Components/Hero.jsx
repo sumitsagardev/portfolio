@@ -14,7 +14,7 @@ function Hero() {
         {/* Image Section */}
         <div className="md:w-1/2 flex justify-between order-1 md:order-2 mt-8 md:mt-0">
           <img
-            src="../../public/logo.png"
+            src="/public/logo.png"
             alt="Profile Logo"
             className="sm:w-auto w-72 sm:mb-0 mb-8 flex justify-between object-cover lg:mx-20 rounded-full border border-secondary animation-borderMove shadow-lg transition-transform duration-300 ease-in-out"
             style={{
